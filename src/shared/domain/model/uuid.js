@@ -4,6 +4,6 @@ export function generateUuid() {
     return uuidv7();
 }
 
-export function isValidUUID(uuid) {
+export function validateUuid(uuid) {
     return uuidValidate(uuid);
 }
